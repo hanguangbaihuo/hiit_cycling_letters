@@ -71,5 +71,12 @@ if __name__ == '__main__':
     output_dict = run()
     print(output_dict)
     print('答案是{}.'.format(len(output_dict)))
+    
+    # 打印大于1次的
+    #output_dict = run()
+    #keys = list(output_dict.keys())
+    #new_output_dict = {key: output_dict[key] for key in keys if output_dict[key]>1}
+    #print(new_output_dict)
+    #print('答案是{}.'.format(len(new_output_dict)))
 
 
