@@ -21,6 +21,7 @@ input_data = ["pipippppp", "ipipppppp", "pippppppi", "ippppppip", "ppppppipi", "
 
 
 def shift_string(input_str):
+    input_str = str(input_str)
     input_str = list(input_str)
     last_letter = input_str.pop()
     new_str = []
