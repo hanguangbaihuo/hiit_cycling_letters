@@ -18,8 +18,8 @@ while idx < input_len:
         continue
     one = input_data[idx]
     # print("处理%d：%s"%(idx,one))
-    new_one = [i for i in one]
-    ii_one = one + "".join(new_one[:-1])
+    # new_one = [i for i in one]
+    ii_one = one + one[:-1]
     # print(ii_one)
     last_data[one] = [idx]
 
